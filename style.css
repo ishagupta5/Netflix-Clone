@@ -181,14 +181,12 @@ input::placeholder{
     position: relative;
     z-index: 1;
     font-weight:400;
-    /* top: 34.4vh; */
     width: 40vw;
     text-align: center;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 .curve {
     position: absolute;
-    /* top: 90vh; */
     height: 108px;
     width: 100%;
     background: linear-gradient(to top ,rgb(0, 0, 0),rgb(9, 9, 37),rgb(17, 17, 78)) border-box, #000 padding-box;
@@ -196,9 +194,7 @@ input::placeholder{
     z-index: 10;
     border-radius: 100% 100% 0 0 / 100% 100% 0 0;
     margin-top: 12px;
-    /* bottom:-70px; */
     left:0;
-     /* margin-top:-40px; */
     position:relative;
     z-index:2;
 }
@@ -209,7 +205,6 @@ input::placeholder{
 }
 .box4{
     color: white;
-    /* height: 400vh; */
     width: 100%;
     background-color: #000;
     position: relative;
@@ -328,7 +323,6 @@ input::placeholder{
 .faq{
     font-size: 25px;
     font-weight: 700;
-    /* left: -9vw; */
     display: flex;
     width: 82vw;
     justify-self: center;
@@ -561,13 +555,11 @@ input::placeholder{
         padding: 5px;
         max-height: 11vh;
         display: flex;
-        /* padding-inline: 0px; */
     }
     .try-2{
         width:90%;
         max-width:80vw;
         padding: 5px;
-        /* padding-inline: 0px; */
     }
     .svgs{
         width: 48px;
