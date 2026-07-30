@@ -4,7 +4,7 @@ I built this project to practice HTML and CSS by recreating the Netflix landing 
 
 ## Live Demo
 
-👉 Add your GitHub Pages link here
+👉 https://ishagupta5.github.io/Netflix-Clone/
 
 ## Features
 
