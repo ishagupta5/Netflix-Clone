@@ -149,7 +149,7 @@ body{
     padding: 0px;
     font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     width: 250px;
-    height: 8vh;
+    height: 11vh;
     font-size: 16px;
     border: 1px solid gray;
     
@@ -306,8 +306,8 @@ input::placeholder{
 }
 .section3{
     position: relative;
-    bottom: -470px;
-    display:inline;
+    margin-top: 470px;
+    display:grid;
     justify-content: center;
 }
 .ques{
@@ -353,7 +353,6 @@ input::placeholder{
     display: flex;
     justify-self: center;
     top: 18vh;
-    width: 40vw;
     text-align: center;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
@@ -366,15 +365,12 @@ input::placeholder{
     padding: 0px;
     padding-inline: 8vw;
     font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    width: 250px;
-    height: 8vh;
+    height: 11vh;
     font-size: 16px;
     border: 1px solid gray;
 }
 input::placeholder{
     color: rgb(190, 190, 190);
-    position: absolute;
-    left: 1vw;
 }
 .try-2{
     color: white;
@@ -441,25 +437,32 @@ input::placeholder{
     padding-inline: 25px;
     font-size: 16px;
     position: relative;
-    top: 45vh;
-    left: 10vw;
+    display: grid;
+    margin-top: 45vh;
+    max-width: 100px;
+    margin-left: 1.3vw;
+    
 }
 .end4{
     color: rgb(202, 206, 208);
     font-size: 13px;
     position: relative;
-    top: 53vh;
-    left: 1vw;
     display:flex;
-    margin-left: 9vw;
+    margin-left: 1.3vw;
+    margin-top: 7vh;
 }
 .end5{
     color:gray;
     font-size: 13px;
     position: relative;
-    top: 60vh;
     display:flex;
-    margin-left: 9vw;
+    margin-left: 1.3vw;
+    margin-top: 7vh;
+}
+.space{
+    position: relative;
+    display:flex;
+    margin-top: 100px;
 }
 @media  screen and (max-width:1300px) {
     .option{
@@ -472,11 +475,8 @@ input::placeholder{
     height: 400px;
     width: 80vw;
 }
-.section3{
-    position: relative;
-    bottom: -580px;
-    display:inline;
-    justify-content: center;
+ .section3{
+    margin-top: 570px;
 }
 .svgs{
     position: absolute;
@@ -497,9 +497,10 @@ input::placeholder{
 }
 .section3{
     position: relative;
-    bottom: -900px;
-    display:inline;
+    margin-top: 920px;
+    display:grid;
     justify-content: center;
+    align-content: center;
 }
 .svgs{
     position: absolute;
